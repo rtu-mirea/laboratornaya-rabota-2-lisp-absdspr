@@ -12,4 +12,12 @@
 
 (removeAt lst 0)
 
-(defun )
+(defun findElem (lst val)
+    (loop
+    for element in lst
+    and position from 0
+    when (eql element val)
+        collect element))
+
+
+(find lst 2)
