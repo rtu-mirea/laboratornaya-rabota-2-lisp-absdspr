@@ -20,4 +20,4 @@
         collect element))
 
 
-(find lst 2)
+(findElem lst 2)
